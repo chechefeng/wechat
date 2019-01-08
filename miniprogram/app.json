@@ -6,6 +6,7 @@
     "pages/databaseGuide/databaseGuide",
     "pages/addFunction/addFunction",
     "pages/deployFunctions/deployFunctions",
+    "pages/play/play",
     "pages/chooseLib/chooseLib"
   ],
   "window": {

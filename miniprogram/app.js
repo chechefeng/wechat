@@ -10,6 +10,14 @@ App({
       })
     }
 
-    this.globalData = {}
+    // this.globalData = {}
+  },
+  setGlobalData: function (obj) {
+    for(var n in obj) {
+      this.globalData[n] = obj[n];
+    }
+  },
+  globalData:{
+    userInfo:null
   }
 })
